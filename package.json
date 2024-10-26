@@ -1,8 +1,8 @@
 {
-  "name": "pagination",
+  "name": "@tarasare/pagination",
   "version": "0.0.1",
   "description": "Help to pagination",
-  "main": "index.js",
+  "main": "main.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tarasare/pagination.git"
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/tarasare/pagination/issues"
   },
-  "homepage": "https://github.com/tarasare/pagination.git"
+  "homepage": "https://github.com/tarasare/pagination.git",
+  "directories": {
+    "test": "tests"
+  },
+  "keywords": [
+    "Pagination"
+  ]
 }

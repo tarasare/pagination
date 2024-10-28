@@ -1,6 +1,6 @@
 {
   "name": "@tarasare/pagination",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Help to pagination",
   "main": "dist/index.js",
   "repository": {

@@ -7,7 +7,7 @@ export class PageRequest<T>{
     sort: Sort
     searchTerms:string
     orderBy: OrderBy<T>
-    constructor(searchTerms: string = '', page:number = 0, size: number = 10, orderBy: OrderBy<T>, sort:Sort = Sort.ASC){
+    constructor(orderBy: OrderBy<T>, searchTerms: string = '', page:number = 0, size: number = 10, sort:Sort = Sort.ASC){
         this.page = page < 0 ? 0: page;
         this.size = size < 1 ? 1: size;
         this.sort = sort;

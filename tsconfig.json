@@ -13,11 +13,8 @@
     "noImplicitReturns": true,
     "baseUrl": "./src",
     "noErrorTruncation": true,
-    "paths": {
-      "@tarasare/*": ["packages/*/src"]
-    },
     "outDir": "./dist",
-    "rootDir": "./src",
+    "rootDir": "./src"
   },
   "exclude": [
     "**/node_modules",
